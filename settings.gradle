@@ -1,0 +1,2 @@
+include ':app'
+rootProject.name = "JJBA Catch the Vampire"
