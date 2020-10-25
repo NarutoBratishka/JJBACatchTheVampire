@@ -3,8 +3,9 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="?attr/fullscreenBackgroundColor"
+    android:background="@drawable/pillar_men"
     android:theme="@style/ThemeOverlay.JJBACatchTheVampire.FullscreenContainer"
+    android:orientation="horizontal"
     tools:context=".FullscreenActivity">
 
     <!-- The primary full-screen view. This can be replaced with whatever view
@@ -26,6 +27,7 @@
     <FrameLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
+        android:background="@mipmap/pillar_men"
         android:fitsSystemWindows="true">
 
         <LinearLayout
@@ -53,8 +55,9 @@
             android:layout_height="wrap_content"
             android:backgroundTint="@color/material_on_surface_disabled"
             android:text="Start"
-            android:translationX="320"
-            android:translationY="180"
+            android:textAlignment="center"
+            android:translationX="320dp"
+            android:translationY="180dp"
             android:visibility="visible" />
     </FrameLayout>
 
